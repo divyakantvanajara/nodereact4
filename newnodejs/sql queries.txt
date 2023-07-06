@@ -1,0 +1,61 @@
+
+how to create table 
+
+create table tablename(
+    fieldname datatype [constraints],
+    fieldname datatype [constraints]
+)
+example
+
+create table student(
+    id integer PRIMARY KEY AUTO_INCREMENT,
+    name varchar(64) not null,
+    gender char(1) not null,
+    dob date not null,
+    city char(12),
+    email varchar(128) unique not null,
+    mobile varchar(12) unique not null,
+    photo varchar(255)
+)
+
+create table  subject(
+    id integer PRIMARY KEY AUTO_INCREMENT,
+    name varchar(64) not null,
+    detail varchar(255) not null,
+    syllabus varchar(255)
+)
+-------------------------------------------------------
+how to insert row in table 
+1st method 
+insert into tablename values(values1,values2,values3,values4)
+
+insert into subject values(0,'React js','Javascript library','reajs-syllabus.pdf')
+
+2nd method 
+insert into tablename (fieldname1,fieldname2,fieldname3,fieldname4) values(values1,values2,values3,values4)
+
+insert into subject(name,detail,syllabus) values ('Node js','serverside scripting language','nodejs.pdf')
+
+insert into subject (name) values ('bootstrap');
+
+insert into student (name,gender,dob,email,mobile) values ('rahul','m','1984-05-30','rahul@gmail.com','1234567890');
+
+how to delete row from table 
+------------------------------------------------------------------
+
+delete from tablename [condition]
+
+delete all rows from subect 
+delete from subject
+
+delete specific row as per condition 
+delete from subject where name='bootstrap'
+
+delete from subject where id>=4
+
+delete all row and reset id 
+truncate table subject
+
+remove table with data
+
+drop table subject

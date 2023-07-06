@@ -1,0 +1,9 @@
+Create local module which will convert inches into  foot, meter and Mile using function 
+    toFoot 
+    toMeter
+    ToMile 
+
+Create local module which will convert bytes into  KB, MB and GB using function 
+    toKB
+    toMB
+    ToGB 

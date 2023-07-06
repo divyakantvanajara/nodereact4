@@ -1,0 +1,10 @@
+ <script src="https://kit.fontawesome.com/16e157803b.js" crossorigin="anonymous"></script>
+
+ for image gallary 
+ https://lokeshdhakar.com/projects/lightbox2/#getting-started
+
+ axios api website 
+ https://axios-http.com/docs/api_intro
+
+for bootstrap 5 cheetsheet
+ https://www.codehim.com/
