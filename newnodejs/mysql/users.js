@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const gmail = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-        user: "ankit3385@gmail.com", //sender email address
+        user: "divyakant.1452@gmail.com", //sender email address
         pass: "aspzuihkezhozuts"
     }
 });
@@ -19,7 +19,7 @@ async function send(receiver,sub,content)
 {
     let info = await gmail.sendMail(
         {
-            from: "ankit3385@gmail.com",
+            from: "divyakant.1452@gmail.com",
             to: receiver,
             subject: sub,
             html: content
