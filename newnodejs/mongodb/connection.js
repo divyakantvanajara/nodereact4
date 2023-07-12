@@ -1,7 +1,7 @@
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
 var url = "mongodb://0.0.0.0:27017/reactnode";
- //var url = "mongodb://0.0.0.0/reactnode";
+ //var url = "mongodb://localhost:27017/reactnode";
 MongoClient.connect(url,function(error,database){
     if(error!=null) //if there is error
     {
