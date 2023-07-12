@@ -1,6 +1,6 @@
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
-var url = "mongodb://localhost:27017/reactnode";
+var url = "mongodb://0.0.0.0:27017/reactnode";
 const DATABASENAME = 'reactnode'; //read only variable
 // var url = `mongodb://0.0.0.0/{DATABASENAME}`;
 MongoClient.connect(url,function(error,database){
