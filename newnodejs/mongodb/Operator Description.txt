@@ -1,0 +1,16 @@
+Operator	Description
+$eq	    Compares two values for equality.
+$ne	    Compares two values for inequality.
+$gt	    Compares two values for greater than.
+$gte	Compares two values for greater than or equal to.
+$lt	    Compares two values for less than.
+$lte	Compares two values for less than or equal to.
+$in	    Checks if a value is contained in an array.
+$nin	Checks if a value is not contained in an array.
+$and	Combines two comparisons so that both comparisons must be true in order for the document to be included in the results.
+
+$or	    Combines two comparisons so that either comparison must be true in order for the document to be included in the results.
+
+$size	Gets the size of an array.
+$regex	Matches documents that contain a specific regular expression.
+$near	Finds documents that are near a specific point.
